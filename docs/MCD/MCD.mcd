@@ -1,0 +1,27 @@
+:
+:
+:
+:
+LIKES, 0N USER, 0N SCRIPT: created_at
+:
+
+TAG: tag
+HAS_TAG, 0N SCRIPT, 0N TAG
+SCRIPT: id, name, slug, content, created_at, updated_at, is_public, likes_count, version
+AUTHORED_BY, 0N USER, 11 SCRIPT
+USER: id, name, email, password_hash, created_at, updated_at, profile_visibility, role
+BELONGS, 0N USER, 0N GROUP: created_at
+
+:
+:
+:
+FAVORITE, 0N USER, 0N SCRIPT: created_at
+OWNED_BY, 0N USER, 11 GROUP
+GROUP: id, name, description, created_at, updated_at, is_public
+
+:
+:
+:
+CONTAINS, 0N GROUP, 0N SCRIPT: created_at
+:
+:

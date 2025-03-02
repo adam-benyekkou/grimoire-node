@@ -1,0 +1,47 @@
+{
+  "width": 660,
+  "height": 431,
+  "cx": [
+    [ "LIKES", 486 ],
+    [ "TAG", 27 ],
+    [ "HAS_TAG", 114 ],
+    [ "SCRIPT", 223 ],
+    [ "AUTHORED_BY", 348 ],
+    [ "USER", 486 ],
+    [ "BELONGS", 611 ],
+    [ "FAVORITE", 348 ],
+    [ "OWNED_BY", 486 ],
+    [ "GROUP", 611 ],
+    [ "CONTAINS", 348 ]
+  ],
+  "cy": [
+    [ "LIKES", 34 ],
+    [ "TAG", 169 ],
+    [ "HAS_TAG", 169 ],
+    [ "SCRIPT", 169 ],
+    [ "AUTHORED_BY", 169 ],
+    [ "USER", 169 ],
+    [ "BELONGS", 169 ],
+    [ "FAVORITE", 304 ],
+    [ "OWNED_BY", 304 ],
+    [ "GROUP", 304 ],
+    [ "CONTAINS", 397 ]
+  ],
+  "shift": [
+    [ "LIKES,USER,0", 0 ],
+    [ "LIKES,SCRIPT,0", 0 ],
+    [ "HAS_TAG,SCRIPT,0", 0 ],
+    [ "HAS_TAG,TAG,0", 0 ],
+    [ "AUTHORED_BY,USER,0", 0 ],
+    [ "AUTHORED_BY,SCRIPT,0", 0 ],
+    [ "BELONGS,USER,0", 0 ],
+    [ "BELONGS,GROUP,0", 0 ],
+    [ "FAVORITE,USER,0", 0 ],
+    [ "FAVORITE,SCRIPT,0", 0 ],
+    [ "OWNED_BY,USER,0", 0 ],
+    [ "OWNED_BY,GROUP,0", 0 ],
+    [ "CONTAINS,GROUP,0", 0 ],
+    [ "CONTAINS,SCRIPT,0", 0 ]
+  ],
+  "ratio": []
+}
