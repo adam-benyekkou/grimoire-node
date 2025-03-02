@@ -1,3 +1,5 @@
+import { dataMapper } from "../database/dataMapper.js";
+
 const siteController = {
     landingPage(req, res) {
         res.render('landingPage');

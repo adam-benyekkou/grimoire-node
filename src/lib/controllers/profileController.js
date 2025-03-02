@@ -1,3 +1,5 @@
+import { dataMapper } from "../database/dataMapper.js";
+
 const profileController = {
     myProfile(req, res) {
         res.render('profile/myProfile');
