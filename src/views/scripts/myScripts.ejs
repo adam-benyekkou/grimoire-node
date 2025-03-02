@@ -1,5 +1,8 @@
 <%- include('../partials/header') %>
 
 <h2>All my Scripts</h1>
+    <% allScripts.forEach( script => { %>
+        <p><%= script.name %></p>
+    <% }) %>
 
 <%- include('../partials/footer') %>

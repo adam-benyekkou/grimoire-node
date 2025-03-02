@@ -1,5 +1,9 @@
 <%- include('../partials/header') %>
 
 <h2>All Groups</h1>
+    <h2>All my Scripts</h1>
+        <% allGroups.forEach( group => { %>
+            <p><%= group.name %></p>
+        <% }) %>
 
 <%- include('../partials/footer') %>
