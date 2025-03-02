@@ -1,0 +1,11 @@
+<%- include('partials/header') %>
+
+
+<% if (locals.message) { %>
+    <p><%= message %></p>
+    <pre>
+        <%= stack %>
+    </pre>
+<% } %>
+
+<%- include('partials/footer') %>

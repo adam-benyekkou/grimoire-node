@@ -1,6 +1,16 @@
+import {dataMapper} from "../database/dataMapper.js";
+
 const groupController = {
-    allGroups(req, res) {
-        res.render('groups/allGroups');
+    async allGroups(req, res, next) {
+        try {
+            const allGroups = await dataMapper.getAllGroups();
+            console.log(allGroups);
+            res.render('groups/allGroups', { allGroups });
+
+        } catch (error) {
+            next(error);
+        }
+
     },
 
     singleGroup(req, res) {

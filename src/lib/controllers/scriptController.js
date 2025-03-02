@@ -1,6 +1,15 @@
+import { dataMapper } from "../database/dataMapper.js";
+
 const scriptController = {
-    allScripts(req, res) {
-        res.render('scripts/myScripts');
+    async allScripts(req, res, next) {
+        try {
+            const allScripts = await dataMapper.getAllScripts();
+            console.log(allScripts);
+            res.render('scripts/myScripts', { allScripts});
+        } catch (error) {
+            next(error);
+        }
+
     },
 
     singleScript(req, res) {
